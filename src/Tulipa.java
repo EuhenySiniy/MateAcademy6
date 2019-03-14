@@ -1,14 +1,12 @@
 public class Tulipa extends Flower {
+    public static final int PRICE = 45;
 
     public Tulipa() {
-        super(45);
+        super(this.PRICE);
     }
 
-    public Tulipa(int price) {
-        super(price);
-    }
-
-    public String ToString() {
+    @Override
+    public String toString() {
         return "Tulipa";
     }
 }

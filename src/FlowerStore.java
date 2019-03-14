@@ -55,15 +55,15 @@ public class FlowerStore {
         System.out.println(flowers);
     }
 
+    public int getWallet() {
+        return wallet;
+    }
+
     private void addFlower(Flower type, int arrayOrder) {
         bouquet[arrayOrder] = type;
     }
 
     private void addToWallet(Flower type) {
         this.wallet += type.getPrice();
-    }
-
-    public int getWallet() {
-        return wallet;
     }
 }

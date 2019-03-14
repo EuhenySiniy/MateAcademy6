@@ -1,14 +1,12 @@
 public class Chamomile extends Flower {
+    public static final int PRICE = 70;
 
     public Chamomile() {
-        super(70);
+        super(this.PRICE);
     }
 
-    public Chamomile(int price) {
-        super(price);
-    }
-
-    public String ToString() {
+    @Override
+    public String toString() {
         return "Chamomile";
     }
 }

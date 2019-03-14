@@ -1,14 +1,12 @@
 public class Rose extends Flower {
+    public static final int PRICE = 100;
 
     public Rose() {
-        super(100);
+        super(this.PRICE);
     }
 
-    public Rose(int price) {
-        super(price);
-    }
-
-    public String ToString() {
+    @Override
+    public String toString() {
         return "Rose";
     }
 }

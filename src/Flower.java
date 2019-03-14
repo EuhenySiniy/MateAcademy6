@@ -1,4 +1,4 @@
-public class Flower {
+public abstract class Flower {
     private int price;
 
     public Flower(int price) {
